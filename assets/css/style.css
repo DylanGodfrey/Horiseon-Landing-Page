@@ -4,18 +4,10 @@
     margin: 0;
 }
 
-article, header .nav, .benefit-section {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-}
 
-header, footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-body {
-    background-color: #d9dcd6;
-}
-
+/*
+HEADER
+*/
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -33,6 +25,10 @@ h1::after {
     content: attr(colored-title);
     position: relative;
 }
+
+/*
+HEADER NAV
+*/
 
 header nav {
     padding-top: 15px;
@@ -55,9 +51,14 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+/*
+BODY
+*/
+
+body {
+    background-color: #d9dcd6;
 }
+
 
 .hero {
     height: 800px;
@@ -68,15 +69,11 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+
+/*
+BENEFIT SECTION
+*/
 
 .benefit-section {
     margin-right: 20px;
@@ -104,6 +101,10 @@ p {
     max-width: 150px;
 }
 
+
+/*
+ARTICLE SECTION
+*/
 .article-section {
     width: 75%;
     display: inline-block;
@@ -127,12 +128,55 @@ article h2 {
     font-size: 36px;
 }
 
-.footer {
+
+/*
+FOOTER SECTION
+*/
+
+footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
+}
+
+/*
+FONTS
+*/
+
+article, header .nav, .benefit-section {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*
+GENERIC FONT SIZING
+*/
+
+figcaption, p {
+    font-size: 16px;
+}
+
+
+
+
+/*
+GENERIC FLOATS
+*/
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
