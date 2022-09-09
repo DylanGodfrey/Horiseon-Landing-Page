@@ -2,7 +2,7 @@
 
 ## Description
 
-The motivation of this project was to take an existing website and refactor its code to bring it up to current web development standards. 
+The motivation of this project was to take an existing website and refactor its code to bring it up to current web development standards including making the site accessable to screen readers with alt text. 
 Through this project I learned the value of semantic tags and how to use class and id tags to increase the value of web files without changing the unchanged webpage. 
 
 ## Installation
@@ -12,6 +12,8 @@ To install, clone the repo:
 git clone https://github.com/DylanGodfrey/Horiseon-Landing-Page
 ```
 ## Usage
+
+Link to GitHub Pages deployment: https://dylangodfrey.github.io/Horiseon-Landing-Page/
 
 ![Screenshot of finished website](assets/images/screenshot.png)
 
