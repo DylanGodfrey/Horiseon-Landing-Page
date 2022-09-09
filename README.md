@@ -1,4 +1,4 @@
-# <Module 1 Challenge>
+# Module 1 Challenge
 
 ## Description
 
@@ -14,7 +14,7 @@ git clone https://github.com/DylanGodfrey/Horiseon-Landing-Page
 ## Usage
 
     ```
-    [Screenshot of finished website](assets/images/screenshot.png)
+    ![Screenshot of finished website](assets/images/screenshot.png)
     ```
 
 ## Credits
@@ -25,7 +25,7 @@ Created by: [Dylan Godfrey](https://github.com/DylanGodfrey/)
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2022] [Dylan Godfrey]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
