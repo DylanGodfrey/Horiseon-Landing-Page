@@ -13,8 +13,8 @@ git clone https://github.com/DylanGodfrey/Horiseon-Landing-Page
 ```
 ## Usage
 
-    ```md
-    ![Screenshot of finished website](./assets/images/screenshot.png)
+    ```
+    [Screenshot of finished website](assets/images/screenshot.png)
     ```
 
 ## Credits
